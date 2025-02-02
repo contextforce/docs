@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "User Guide",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,68 +18,51 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:contextforce01@gmail.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Install LEXI",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Lexi User Guide",
+      "url": "lexi"
     }
   ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
+   
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "lexi/introduction",
+        "lexi/youtube",
+        "lexi/selected-text",
+        "lexi/image",
+        "lexi/highlight",
+        "lexi/settings"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Customization",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "lexi/general",
+        "lexi/providers",
+        "lexi/web-assistant",
+        "lexi/prompt-builder",
+        "lexi/app"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "What's Next",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "lexi/art",
+        "lexi/study",
+        "lexi/seo",
+        "lexi/shopping"
       ]
     }
   ],
