@@ -7,12 +7,12 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#FF8C42",
+    "light": "#FF8C42",
+    "dark": "#E67A32",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF8C42",
+      "to": "#FFA666"
     }
   },
   "topbarLinks": [
@@ -42,27 +42,26 @@
         "lexi/youtube",
         "lexi/selected-text",
         "lexi/image",
-        "lexi/highlight",
-        "lexi/settings"
+        "lexi/highlight"
       ]
     },
     {
-      "group": "Customization",
+      "group": "Settings",
       "pages": [
-        "lexi/general",
-        "lexi/providers",
-        "lexi/web-assistant",
-        "lexi/prompt-builder",
-        "lexi/app"
+        "lexi/settings/general",
+        "lexi/settings/providers",
+        "lexi/settings/web-assistant",
+        "lexi/settings/prompt",
+        "lexi/settings/app"
       ]
     },
     {
-      "group": "What's Next",
+      "group": "Apps",
       "pages": [
-        "lexi/art",
-        "lexi/study",
-        "lexi/seo",
-        "lexi/shopping"
+        "lexi/apps/art",
+        "lexi/apps/study",
+        "lexi/apps/seo",
+        "lexi/apps/shopping"
       ]
     }
   ],
