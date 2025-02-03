@@ -3,15 +3,39 @@ title: LLM Providers
 description: "Choose your LLM provider"
 ---
 
-<Tabs>
-  <Tab title="ContextForce">
-    ☝️ Welcome to the content that you can only see inside the first Tab.
-  </Tab>
-  <Tab title="OpenAI">
-    ✌️ Here's content that's only inside the second Tab.
-  </Tab>
-  <Tab title="OpenAI Compatible">
-    <img src="/images/lexi-local-llm.png" alt="Lexi Local LLM"/>
+
+## ContextForce
+<Card title="ContextForce" img="/images/lexi-llm-contextforce.png">
+  Contextforce uses a smart semantic router that picks the best AI model to fulfill your request at runtime. We run a lab to determine what model is best for your task based on a set of criteria like user level, types of tasks, speed, cost, context size and more. 
+  <br/>
+  For free users, your request is likely to be handled by one of the following models: gpt-4o-mini, deepseek-v3, gemini-1.5-flash, llama 3.3 70B, Llama 3.1+, gpt-3.5-turbo, etc. It costs you minimum 1 credit per request. 
+  <br/>
+  For paid users, more advanced models are included like gpt-o1, gpt-o3-mini, deepseek-r1, gemini-1.5-pro, etc.
+  <br/>
+  For developers that have their own way to access frontier models, you can use our service to bring the web data to your model for free. Simple follow the instruction below to set it up.
+  <br/>
+</Card>
+
+## OpenAI
+<Card title="OpenAI" img="/images/lexi-llm-openai.png">
+  Go to OpenAI to get your API key
+</Card>
+
+## Gemini
+<Card title="Gemini" img="/images/lexi-llm-gemini.png">
+  Go to Gemini to get your API key
+</Card>
+
+## OpenAI Compatible
+<Card title="Local LLM" img="/images/lexi-llm-openai-compatible.png">
+  You can now use LLMStudio to download and run the distrilled DeepSeek R1 or other open source models locally. When your model is live, we can communicate with it via the OpenAI compatible API. Please follow the instruction below to obtain the connection info.
+</Card>
+
+### Download DeepSeek R1 distrilled model and run it locally
+<Card img="/images/lexi-llm-local.png">
+</Card>
+
+### Obtain the connection info: model and base url
 
 ```shell
 curl http://localhost:1234/v1/chat/completions \
@@ -28,10 +52,5 @@ curl http://localhost:1234/v1/chat/completions \
 }'
 ```
 
-  </Tab>
-    <Tab title="Google Gemini">
-    💪 Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
 
 
