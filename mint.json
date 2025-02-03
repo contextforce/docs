@@ -54,15 +54,6 @@
         "lexi/settings/prompt",
         "lexi/settings/app"
       ]
-    },
-    {
-      "group": "Apps",
-      "pages": [
-        "lexi/apps/art",
-        "lexi/apps/study",
-        "lexi/apps/seo",
-        "lexi/apps/shopping"
-      ]
     }
   ],
   "footerSocials": {
