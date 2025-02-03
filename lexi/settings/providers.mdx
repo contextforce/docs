@@ -18,24 +18,33 @@ description: "Choose your LLM provider"
 
 ## OpenAI
 <Card title="OpenAI" img="/images/lexi-llm-openai.png">
-  Go to OpenAI to get your API key
+  Go to OpenAI to get your API key (Link: https://platform.openai.com)
 </Card>
+
+### Obtain OpenAI API Key
+<img src="/images/lexi-llm-openai-apikey.png" alt="OpenAI API Key"/>
 
 ## Gemini
 <Card title="Gemini" img="/images/lexi-llm-gemini.png">
-  Go to Gemini to get your API key
+  Go to Gemini to get your API key. (Link: https://aistudio.google.com/)
 </Card>
+
+### Obtain Gemini API Key
+<img src="/images/lexi-llm-gemini-apikey.png" alt="Gemini API Key"/>
 
 ## OpenAI Compatible
-<Card title="Local LLM" img="/images/lexi-llm-openai-compatible.png">
-  You can now use LLMStudio to download and run the distrilled DeepSeek R1 or other open source models locally. When your model is live, we can communicate with it via the OpenAI compatible API. Please follow the instruction below to obtain the connection info.
+<Card title="OpenAI Compatible API" img="/images/lexi-llm-openai-compatible.png">
+  There are many models online have provided OpenAI Compatible API for developers to test their modelswithout writing custom integration code. Contextforce has integrated many of them thru this.
 </Card>
 
-### Download DeepSeek R1 distrilled model and run it locally
+### Local LLM
+You can now use LLMStudio to download and run the distrilled DeepSeek R1 or other open source models locally. When your model is live, we can communicate with it via the OpenAI compatible API. Please follow the instruction below to obtain the connection info.
+
+#### Download DeepSeek R1 distrilled model and run it locally
 <Card img="/images/lexi-llm-local.png">
 </Card>
 
-### Obtain the connection info: model and base url
+#### Obtain the connection info: model and base url
 
 ```shell
 curl http://localhost:1234/v1/chat/completions \
