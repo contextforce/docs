@@ -39,10 +39,12 @@
       "group": "Get Started",
       "pages": [
         "lexi/introduction",
+        "lexi/chat",
         "lexi/youtube",
         "lexi/selected-text",
         "lexi/image",
         "lexi/highlight",
+        "lexi/memo",
         "lexi/apps"
       ]
     },
