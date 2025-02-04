@@ -42,7 +42,8 @@
         "lexi/youtube",
         "lexi/selected-text",
         "lexi/image",
-        "lexi/highlight"
+        "lexi/highlight",
+        "lexi/apps"
       ]
     },
     {
@@ -51,8 +52,7 @@
         "lexi/settings/general",
         "lexi/settings/providers",
         "lexi/settings/web-assistant",
-        "lexi/settings/prompt",
-        "lexi/settings/app"
+        "lexi/settings/prompt"
       ]
     },
     {
