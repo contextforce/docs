@@ -61,7 +61,8 @@
       "group": "Company",
       "pages": [
         "lexi/company/our-story",
-        "lexi/company/faq"
+        "lexi/company/faq",
+        "lexi/company/pricing"
       ]
     }
   ],
