@@ -59,11 +59,11 @@
       ]
     },
     {
-      "group": "Company",
+      "group": "ContextForce",
       "pages": [
-        "lexi/company/our-story",
-        "lexi/company/faq",
-        "lexi/company/pricing"
+        "contextforce/our-story",
+        "contextforce/faq",
+        "contextforce/pricing"
       ]
     }
   ],
