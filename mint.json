@@ -38,23 +38,24 @@
     {
       "group": "Get Started",
       "pages": [
-        "lexi/introduction",
-        "lexi/chat",
-        "lexi/youtube",
-        "lexi/selected-text",
-        "lexi/image",
-        "lexi/highlight",
-        "lexi/memo",
-        "lexi/apps"
+        "introduction",
+        "chat",
+        "youtube",
+        "selected-text",
+        "image",
+        "code",
+        "highlight",
+        "memo",
+        "apps"
       ]
     },
     {
       "group": "Settings",
       "pages": [
-        "lexi/settings/general",
-        "lexi/settings/providers",
-        "lexi/settings/web-assistant",
-        "lexi/settings/prompt"
+        "settings/general",
+        "settings/providers",
+        "settings/web-assistant",
+        "settings/prompt"
       ]
     },
     {
