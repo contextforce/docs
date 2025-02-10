@@ -62,9 +62,9 @@
     {
       "group": "ContextForce",
       "pages": [
-        "contextforce/our-story",
-        "contextforce/faq",
-        "contextforce/pricing"
+        "company/our-story",
+        "company/faq",
+        "company/pricing"
       ]
     }
   ],
