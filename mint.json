@@ -3,7 +3,8 @@
   "name": "User Guide",
   "logo": {
     "dark": "/logo/logo-dark.svg",
-    "light": "/logo/logo-light.svg"
+    "light": "/logo/logo-light.svg",
+    "href": "https://www.contextforce.com"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -23,7 +24,7 @@
   ],
   "topbarCtaButton": {
     "name": "Add to Chrome",
-    "url": "https://chromewebstore.google.com/"
+    "url": "https://www.contextforce.com/installation"
   },
   "tabs": [
     {
@@ -61,9 +62,9 @@
     {
       "group": "ContextForce",
       "pages": [
-        "contextforce/our-story",
-        "contextforce/faq",
-        "contextforce/pricing"
+        "company/our-story",
+        "company/faq",
+        "company/features"
       ]
     }
   ],
